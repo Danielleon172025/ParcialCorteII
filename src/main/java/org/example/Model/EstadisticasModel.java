@@ -6,7 +6,7 @@ import lombok.*;
 
 
 @Entity
-@Table(name = "Estadisiticas")
+@Table(name = "Estadisticas")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -24,6 +24,6 @@ public class EstadisticasModel {
     private int goles;
     private int asistencias;
     private int tarjetas_amarillas;
-    private int tajetas_rojas;
+    private int tarjetas_rojas;
 
 }

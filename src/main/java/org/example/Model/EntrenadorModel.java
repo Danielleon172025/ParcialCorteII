@@ -16,7 +16,6 @@ public class EntrenadorModel {
 
     private String nombre;
     private String especialidad;
-    private int dorsal;
     @ManyToOne
     @JoinColumn(name = "equipo_id")
     private EquipoModel equipo;
